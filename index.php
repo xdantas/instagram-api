@@ -8,10 +8,10 @@
 
 <?php
 /* Instagram App Client Id */
-define('INSTAGRAM_CLIENT_ID', '3444083489037969');
+define('INSTAGRAM_CLIENT_ID', 'SEU CLIENT ID');
 
 /* Instagram App Client Secret */
-define('INSTAGRAM_CLIENT_SECRET', '039312ea6c578940fd37fa31a00d52c3');
+define('INSTAGRAM_CLIENT_SECRET', 'SEU CLIENT SECRET');
 
 /* Instagram App Redirect Url */
 define('INSTAGRAM_REDIRECT_URI', 'https://concepts.summercomunicacao.com.br/metro-arts/wp-content/themes/Site/pages/template-instagram-teste.php');
@@ -25,7 +25,7 @@ if ($_GET['code']) {
        'client_id'     => '3444083489037969',
        'client_secret' => '039312ea6c578940fd37fa31a00d52c3',
        'grant_type'    => 'authorization_code',
-       'redirect_uri'  => 'https://concepts.summercomunicacao.com.br/metro-arts/wp-content/themes/Site/pages/template-instagram-teste.php',
+       'redirect_uri'  => 'LINK DE REDIRECT APOS AUTENTICAÇÃO',
        'code'          => $_GET['code']
     );
 
